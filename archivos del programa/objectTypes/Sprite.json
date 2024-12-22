@@ -1,0 +1,51 @@
+{
+	"name": "Sprite",
+	"plugin-id": "Sprite",
+	"sid": 886555115106708,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1500,
+						"height": 1370,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1519503,
+						"collisionPoly": {
+							"points": [
+								0.36733333333333335,
+								0.016058394160583942,
+								0.99,
+								0.327007299270073,
+								0.6533333333333333,
+								0.9854014598540146,
+								0.012666666666666666,
+								0.654014598540146
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 835497361195512,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

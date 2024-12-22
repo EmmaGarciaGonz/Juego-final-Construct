@@ -1,0 +1,15 @@
+{
+	"name": "TxtCooler",
+	"plugin-id": "Text",
+	"sid": 896360447640670,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 807252867525423
+		}
+	],
+	"effectTypes": []
+}

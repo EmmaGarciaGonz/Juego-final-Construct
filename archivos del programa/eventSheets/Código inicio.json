@@ -1,0 +1,32 @@
+{
+	"name": "Código inicio",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 753895418677479,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "START"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 522753566166914,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 414453338423595
+		}
+	],
+	"sid": 538544021775163
+}

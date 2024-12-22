@@ -1,0 +1,297 @@
+{
+	"name": "Código nombres",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "AciertosNum",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 322704912275415
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 618803471416928
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Aciertos",
+					"sid": 186365286223389,
+					"parameters": {
+						"text": "AciertosNum"
+					}
+				}
+			],
+			"sid": 771596866260643
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "PonerCPU",
+					"sid": 262918408604236,
+					"parameters": {
+						"text": "\"CPU\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 498717593572738
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 169363141454039,
+					"parameters": {
+						"variable": "AciertosNum",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "PonerCPU",
+					"sid": 565139810855496,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 119644805946955
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "PonerCPUCo",
+					"sid": 419413617190399,
+					"parameters": {
+						"text": "\"CPU cooler\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 658315539298229
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 754318228604732,
+					"parameters": {
+						"variable": "AciertosNum",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "PonerCPUCo",
+					"sid": 259634324562289,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 943639647717614
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "PonerGraf",
+					"sid": 449424050177599,
+					"parameters": {
+						"text": "\"tarjeta gráfica\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 817522779125048
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 375951887671343,
+					"parameters": {
+						"variable": "AciertosNum",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "PonerGraf",
+					"sid": 449893672603559,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 961521363692534
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "PonerPB",
+					"sid": 413426557972075,
+					"parameters": {
+						"text": "\"placa base\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 500578881927183
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 876161680490702,
+					"parameters": {
+						"variable": "AciertosNum",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "PonerPB",
+					"sid": 925337217809284,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 908778014379850
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "PonerPSU",
+					"sid": 451862683679452,
+					"parameters": {
+						"text": "\"psu\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 274766118644563
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 152654561833910,
+					"parameters": {
+						"variable": "AciertosNum",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "PonerPSU",
+					"sid": 995554776307444,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 228017149908381
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "PonerRAM",
+					"sid": 844707255786599,
+					"parameters": {
+						"text": "\"ram\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 225877076024765
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 606387916282280,
+					"parameters": {
+						"variable": "AciertosNum",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "PonerRAM",
+					"sid": 900887971263245,
+					"parameters": {
+						"mode": "disabled"
+					}
+				}
+			],
+			"sid": 613432350429002
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 527630326575087,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Cont"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 190020453982621,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 376380621514635
+		}
+	],
+	"sid": 659066005434106
+}

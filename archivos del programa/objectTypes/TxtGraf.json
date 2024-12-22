@@ -1,0 +1,15 @@
+{
+	"name": "TxtGraf",
+	"plugin-id": "Text",
+	"sid": 446594199618432,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 306399271343678
+		}
+	],
+	"effectTypes": []
+}

@@ -1,0 +1,15 @@
+{
+	"name": "TxtCPU",
+	"plugin-id": "Text",
+	"sid": 342214239613008,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 453809649081903
+		}
+	],
+	"effectTypes": []
+}

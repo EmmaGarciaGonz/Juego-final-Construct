@@ -1,0 +1,20 @@
+{
+	"name": "TxtPSU",
+	"plugin-id": "Text",
+	"sid": 226120969807294,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 208175625403007
+		},
+		{
+			"behaviorId": "Anchor",
+			"name": "Ancla",
+			"sid": 275936991397661
+		}
+	],
+	"effectTypes": []
+}

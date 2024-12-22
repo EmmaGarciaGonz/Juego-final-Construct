@@ -1,0 +1,15 @@
+{
+	"name": "TxtPlaca",
+	"plugin-id": "Text",
+	"sid": 943512902529541,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 406980354168140
+		}
+	],
+	"effectTypes": []
+}

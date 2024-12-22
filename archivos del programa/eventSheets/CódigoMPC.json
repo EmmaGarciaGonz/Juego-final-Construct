@@ -1,0 +1,346 @@
+{
+	"name": "CódigoMPC",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PlacaBase",
+					"sid": 762019334787740,
+					"parameters": {
+						"object": "ColocarPB"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PlacaBase",
+					"sid": 928659938845222,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "PlacaBase",
+					"sid": 363249162163955,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "ColocarPB",
+						"image-point": "1",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "PlacaBase",
+					"sid": 800738157223431,
+					"parameters": {
+						"width": "245",
+						"height": "253"
+					}
+				}
+			],
+			"sid": 727618454834085
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "PSU",
+					"sid": 394400648119374,
+					"parameters": {
+						"object": "ColocarPSU"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "PSU",
+					"sid": 502902463302573,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "PSU",
+					"sid": 107802237526444,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "ColocarPSU",
+						"image-point": "2",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "PSU",
+					"sid": 380715734508575,
+					"parameters": {
+						"width": "223",
+						"height": "119"
+					}
+				}
+			],
+			"sid": 816568307713747
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "CPU",
+					"sid": 141570871181425,
+					"parameters": {
+						"object": "ColocarCPU"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "CPU",
+					"sid": 413096831057734,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "CPU",
+					"sid": 791892543216486,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "ColocarCPU",
+						"image-point": "1",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "CPU",
+					"sid": 769310154361897,
+					"parameters": {
+						"width": "38",
+						"height": "43"
+					}
+				}
+			],
+			"sid": 737720556371670
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Grafica",
+					"sid": 771335023881669,
+					"parameters": {
+						"object": "ColocarTG"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Grafica",
+					"sid": 602419436607645,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "Grafica",
+					"sid": 859498641844013,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "ColocarTG",
+						"image-point": "2",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "Grafica",
+					"sid": 497379675504469,
+					"parameters": {
+						"width": "186",
+						"height": "39"
+					}
+				}
+			],
+			"sid": 632645558519196
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "CPUCooler",
+					"sid": 570518934893281,
+					"parameters": {
+						"object": "ColocarCooler"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "CPUCooler",
+					"sid": 699290051364898,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "CPUCooler",
+					"sid": 737757751399258,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "ColocarCooler",
+						"image-point": "1",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "CPUCooler",
+					"sid": 404243088070459,
+					"parameters": {
+						"width": "142",
+						"height": "132"
+					}
+				}
+			],
+			"sid": 568540572737027
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "RAM",
+					"sid": 736281249245622,
+					"parameters": {
+						"object": "ColocarRAM"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "RAM",
+					"sid": 826405604158630,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "RAM",
+					"sid": 144790484210305,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "ColocarRAM",
+						"image-point": "3",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "RAM",
+					"sid": 698366977565563,
+					"parameters": {
+						"width": "153",
+						"height": "30"
+					}
+				}
+			],
+			"sid": 239102871759575
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 588149310657278,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Reiniciar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 669835186236174,
+					"parameters": {
+						"layout": "Inicio juego"
+					}
+				}
+			],
+			"sid": 384689193266921
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 744631864722733,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Volver"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 419464497957386,
+					"parameters": {
+						"which": "previous"
+					}
+				}
+			],
+			"sid": 143027908459831
+		}
+	],
+	"sid": 147850482501012
+}
